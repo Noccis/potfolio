@@ -1,25 +1,16 @@
 import { useState } from 'react'
 import './App.css'
+import Home from './components/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <header>
         <h1>Toni Wincent</h1>
       </header>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          This will be an epic portfolio!
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Yes it will.
-      </p>
+      <main>
+        <Home />
+      </main>
     </>
   )
 }
