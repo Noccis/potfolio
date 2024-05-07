@@ -1,7 +1,10 @@
+import portrait from "../assets/circleme.png";
+import "../styling/Home.css"
+
 const Home = () => {
     return(
         <div id="home-content">
-            <p>Här kommer sidans innehåll vara.</p>
+            <img id="portrait" src={portrait} />
         </div>
     )
 }

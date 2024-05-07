@@ -1,13 +1,17 @@
-import { useState } from 'react'
 import './App.css'
 import Home from './components/Home'
+import Menu from './components/Menu'
 
 function App() {
   return (
     <>
       <header>
-        <h1>Toni Wincent</h1>
+        <div id='title-container'>
+          <p id='page-name' className='shadow'>Toni Wincent</p>
+          <p id='page-subtitle' className='shadow'>Kreativ utvecklare</p>
+        </div> 
       </header>
+      <Menu />
       <main>
         <Home />
       </main>
