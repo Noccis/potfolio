@@ -7,8 +7,8 @@ function App() {
     <>
       <header>
         <div id='title-container'>
-          <p id='page-name' className='shadow'>Toni Wincent</p>
-          <p id='page-subtitle' className='shadow'>Kreativ utvecklare</p>
+          <p id='page-name' className='roboto-light'>Toni Wincent</p>
+          <p id='page-subtitle' className='roboto-light-italic'>Kreativ utvecklare</p>
         </div> 
       </header>
       <Menu />

@@ -1,36 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+
 html, body{
   margin: 0;
   padding: 0;
 }
+
 body{
-  background-color: #d3dac0;
+  background-color: rgb(221, 214, 229);
 }
 
 #root {
   width: 100vw;
   height: 100vh;
+  max-width: 100%;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
 header{
-  height: 400px;
-  background-image: url("/src/assets/bg2.jpg");
+  height: 300px;
+  background-color: rgb(107, 71, 146);
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-
-#title-container{
-  position: relative;
-  top: 95px
 }
 
 #page-name{
   font-size: 5rem;
+  font-weight: bold;
   color: white;
   margin: 0;
   margin-bottom: 15px;
@@ -43,7 +45,30 @@ header{
 }
 
 .shadow{
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 5px black;
+}
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
 
 h1, h4{
