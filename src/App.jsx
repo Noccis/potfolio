@@ -2,8 +2,8 @@ import './App.css'
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
-
 import { Route, Routes, NavLink } from "react-router-dom";
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -30,6 +30,11 @@ function App() {
             <p>Projekt</p>
           )}
         </NavLink>
+        <NavLink to="/contact">
+          {() => (
+            <p>Kontakta mig</p>
+          )}
+        </NavLink>
       </div>
       <main>
         <Routes>
@@ -41,6 +46,9 @@ function App() {
           } />
           <Route path='/projects' element={
             <Projects />
+          } />
+          <Route path='/contact' element={
+            <Contact />
           } />
         </Routes>
       </main>
