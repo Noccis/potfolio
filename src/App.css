@@ -44,6 +44,12 @@ header{
   margin: 0;
 }
 
+#navigation-bar{
+  display: flex;
+  justify-content: space-around;
+
+}
+
 .shadow{
   text-shadow: 1px 1px 5px black;
 }
